@@ -1,0 +1,36 @@
+body{
+    font-family: 'GFS Didot', serif;
+font-family: 'Poppins', sans-serif;
+}
+NAV{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+NAV li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: grey;
+}
+
+.text-p{
+    color: #FD6E0A;;
+}
+
+.btn-p{
+    border-radius: 5px;
+    background-color: #FD6E0A;;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+}
