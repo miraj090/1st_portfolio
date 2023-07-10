@@ -35,24 +35,40 @@ nav a{
 
 .header{
     background: #FFF8F3;
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.bc{
+    max-width: 500px;
 }
 
 .banner h3{
     font-size: 35px;
     font-style: normal;
     font-weight: 500;
+    margin-bottom: 0%;
+    color: #474747;
 }
 
 .banner h1{
     font-size: 65px;
     font-style: normal;
     font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner p{
+    margin-top: 0%;
 }
 
 .btn-c{
@@ -64,3 +80,35 @@ nav a{
     color: #FD6E0A;
 }
 
+main{
+    max-width:  1140px;
+    margin: 0 auto;
+}
+
+.about{
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+    margin: 130px 0;
+
+}
+
+.about .title{
+    text-align: center;
+}
+.about .des{
+    text-align: center;
+}
+
+.about-infoContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.about-infoContainer div h4{
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.about-infoContainer div p{
+    margin-top: 5px;
+}
